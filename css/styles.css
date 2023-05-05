@@ -3,7 +3,8 @@ body {
 }
 
 h1, h3 {
-    font-family: "Open Sans", cursive;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -20,14 +21,19 @@ footer {
 }
 
 .jumbotron {
+    margin: 0;
     background-image: url(https://images.unsplash.com/photo-1615919737249-965d68c7e439?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60);
     background-size: cover;
     padding: 30px;
-    color: rgb(243, 7, 129);
+    color: rgb(248, 5, 130);
 }
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.navbar {
+    background-color: rgb(197, 98, 149);
 }
